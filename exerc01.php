@@ -9,6 +9,7 @@
 
 	<body>
 		<div class="container">
+			<!--Formulario -->
 			<h3>Exercício 1, Questão 6, Calcular a média de 10 números. </h3>
 			<form action="calc.php" method="POST">
 				<div class="row">
