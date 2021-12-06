@@ -13,8 +13,6 @@
 				$numeros = $_POST;	
 
 				$media = array_sum($numeros) / count($numeros);
-				$s = array_sum($numeros);
-				$e = count($numeros);
 				echo "<h3>A média dos números é: " . $media. "</h3>" ;
 				?>
 
