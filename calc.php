@@ -10,10 +10,9 @@
 		<div class="container">
 				<?php
 
-				$numeros = $_POST;	
-
-				$media = array_sum($numeros) / count($numeros);
+				$media = array_sum($_POST) / count($_POST);
 				echo "<h3>A média dos números é: " . $media. "</h3>" ;
+				
 				?>
 
 			<a href="exerc01.php"> <button type="submit" class="btn btn-primary">Voltar</button></a>	
